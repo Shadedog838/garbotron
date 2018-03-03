@@ -1,4 +1,6 @@
-
+body{
+  background-image: url("http://static5.depositphotos.com/1010111/457/v/950/depositphotos_4575046-Recycling-eco-background.jpg");
+}
   h1{
     text-align: center;
     }
@@ -28,6 +30,8 @@
  border:solid black 1px;
   margin:0 auto;
   width:60%;
+  height:100000px;
+
   background-color: #BDBDBD
 }
 #avatar{
@@ -46,7 +50,7 @@
   border:solid black 1px;
   margin:0 auto;
   height:200;
-  width:300px;
+width:55.5%;
 
 }
 #image{
@@ -57,44 +61,116 @@
 #antifreeze{
 
   height:50px;
-  width:50px;
+  width:70px;
   border:solid black 1px;
 }
 #fluids{
 
   height:50px;
-  width:50px;
+  width:70px;
     border:solid black 1px;
 }
 #motorOil{
 
   height:50px;
-  width:50px;
+  width:70px;
     border:solid black 1px;
 }
 #oilFilters{
 
   height:50px;
-  width:50px;
+  width:70px;
     border:solid black 1px;
 }
 #gasoline{
 
   height:50px;
-  width:50px;
+  width:70px;
     border:solid black 1px;
 }
 #polish{
 
   height:50px;
-  width:50px;
+  width:70px;
     border:solid black 1px;
 }
 #wax{
 
   height:50px;
-  width:50px;
+  width:60px;
     border:solid black 1px;
+}
+#Batteries{
+
+  display:flex;
+  flex-flow: row;
+
+  border:solid black 1px;
+  margin:0 auto;
+  height:200;
+width:55.5%;
+}
+#HouseholdBatteries{
+
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+}
+#vehicleBatteries{
+
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+}
+#Electronics{
+  display:flex;
+  flex-flow: row;
+
+  border:solid black 1px;
+  margin:0 auto;
+  height:200;
+width:60%;
+}
+#Television{
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+}
+#Computers{
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+}
+#laptops{
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+}
+#Cellphones{
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+}
+#Printers{
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+}
+#FaxMachine{
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+}
+#MP3players{
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+}
+#cassetteplayers{
+  height:50px;
+  width:100%;
+    border:solid black 1px;
+
 }
 
 
