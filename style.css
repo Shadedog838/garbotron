@@ -1,4 +1,8 @@
-.navbar {
+
+  h1{
+    text-align: center;
+    }
+    .navbar {
     overflow: hidden;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,6 +26,75 @@
 .everthing{
   display:block;
  border:solid black 1px;
+  margin:0 auto;
+  width:60%;
+  background-color: #BDBDBD
+}
+#avatar{
+  display:block;
+ border:solid black 1px;
+  margin:0 auto;
+
+
+
+
+}
+#AutomotiveProducts{
+  display:flex;
+  flex-flow: row;
+
+  border:solid black 1px;
+  margin:0 auto;
+  height:200;
+  width:300px;
+
+}
+#image{
+  font-size: 20px;
+  text-align:center;
+  background-color: #04B404;
+}
+#antifreeze{
+
+  height:50px;
+  width:50px;
+  border:solid black 1px;
+}
+#fluids{
+
+  height:50px;
+  width:50px;
+    border:solid black 1px;
+}
+#motorOil{
+
+  height:50px;
+  width:50px;
+    border:solid black 1px;
+}
+#oilFilters{
+
+  height:50px;
+  width:50px;
+    border:solid black 1px;
+}
+#gasoline{
+
+  height:50px;
+  width:50px;
+    border:solid black 1px;
+}
+#polish{
+
+  height:50px;
+  width:50px;
+    border:solid black 1px;
+}
+#wax{
+
+  height:50px;
+  width:50px;
+    border:solid black 1px;
 }
 
 
