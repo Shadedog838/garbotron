@@ -30,9 +30,13 @@ body{
  border:solid black 1px;
   margin:0 auto;
   width:60%;
-  height:100000px;
+  padding-bottom:100px;
 
-  background-color: #BDBDBD
+  background-color: #BDBDBD;
+}
+#enter{
+  height:30px;
+  width:30%;
 }
 #avatar{
   display:block;
@@ -50,8 +54,12 @@ body{
   border:solid black 1px;
   margin:0 auto;
   height:200;
-width:55.5%;
+justify-content: center;
 
+}
+
+.wrapper{
+  margin:0px 5px;
 }
 #image{
   font-size: 20px;
@@ -101,26 +109,27 @@ width:55.5%;
     border:solid black 1px;
 }
 #Batteries{
-
   display:flex;
   flex-flow: row;
 
   border:solid black 1px;
   margin:0 auto;
   height:200;
-width:55.5%;
+justify-content: center;
 }
 #HouseholdBatteries{
 
-  height:50px;
-  width:100%;
-    border:solid black 1px;
+
+    height:50px;
+    width:60px;
+      border:solid black 1px;
 }
 #vehicleBatteries{
 
-  height:50px;
-  width:100%;
-    border:solid black 1px;
+
+    height:50px;
+    width:60px;
+      border:solid black 1px;
 }
 #Electronics{
   display:flex;
@@ -129,55 +138,95 @@ width:55.5%;
   border:solid black 1px;
   margin:0 auto;
   height:200;
-width:60%;
+justify-content: center;
 }
+
 #Television{
   height:50px;
-  width:100%;
+  width:60px;
     border:solid black 1px;
 }
 #Computers{
   height:50px;
-  width:100%;
+  width:60px;
     border:solid black 1px;
 }
 #laptops{
   height:50px;
-  width:100%;
+  width:60px;
     border:solid black 1px;
 }
 #Cellphones{
   height:50px;
-  width:100%;
+  width:60px;
     border:solid black 1px;
 }
 #Printers{
   height:50px;
-  width:100%;
+  width:60px;
     border:solid black 1px;
 }
 #FaxMachine{
   height:50px;
-  width:100%;
+  width:60px;
     border:solid black 1px;
 }
 #MP3players{
   height:50px;
-  width:100%;
+  width:60px;
     border:solid black 1px;
 }
 #cassetteplayers{
   height:50px;
-  width:100%;
+  width:60px;
     border:solid black 1px;
 
 }
+#homeAppliances{
+  display:flex;
+  flex-flow: row;
 
+  border:solid black 1px;
+  margin:0 auto;
+  height:200;
+justify-content: center;
 
+}
+#fluorescent{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#compact{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#mercuryMaterials{
+  display:flex;
+  flex-flow: row;
 
+  border:solid black 1px;
+  margin:0 auto;
+  height:200;
+justify-content: center;
 
+}
+#Thermometers{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
 
+}
+#Thermostats{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#seachIcon{
+  height:20px;
+  width:60px;
+    border:solid black 1px;
+    background-color: white;
 
-.show {
-    display: block;
 }
