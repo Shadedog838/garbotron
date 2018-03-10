@@ -230,3 +230,120 @@ justify-content: center;
     background-color: white;
 
 }
+#paintTypes{
+  display:flex;
+  flex-flow: row;
+
+  border:solid black 1px;
+  margin:0 auto;
+  height:200;
+justify-content: center;
+}
+#oilBased{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+
+}
+#latexPaint{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#sprayPaint{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#caulk{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#woodPreservative{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#woodStain{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#gardenChemicals{
+  display:flex;
+  flex-flow: row;
+
+  border:solid black 1px;
+  margin:0 auto;
+  height:200;
+justify-content: center;
+
+}
+#Pesticides{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+
+}
+#Herbicides{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#Fertilizer{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#Insecticides{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#Sharps{
+  display:flex;
+  flex-flow: row;
+
+  border:solid black 1px;
+  margin:0 auto;
+  height:200;
+justify-content: center;
+
+}
+#Needles{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+
+}
+#Lancets{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#Containers{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#swimmingPool{
+  display:flex;
+  flex-flow: row;
+
+  border:solid black 1px;
+  margin:0 auto;
+  height:200;
+justify-content: center;
+
+}
+#Chlorine{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
+#Bromine{
+  height:50px;
+  width:60px;
+    border:solid black 1px;
+}
