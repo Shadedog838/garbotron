@@ -1,6 +1,14 @@
 #everything{
   background-color: grey;
 }
+#logo{
+width: 200px;
+margin:0 auto;
+  display:block;
+
+
+
+}
   #heading{
   display:block;
 border:solid black 1px;

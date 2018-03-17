@@ -9,7 +9,7 @@ document.querySelector('#item1').textContent=garbageItem.item1;
 document.querySelector('#item2').textContent=garbageItem.item2;
 document.querySelector('#stepTwoimg').src=garbageItem.stepTwoimg;
 document.querySelector('#para2').textContent=garbageItem.para2;
-document.querySelector('#item11').textContent=garbageItem.item11;
+document.querySelector('#item12').textContent=garbageItem.item12;
 document.querySelector('#stepThreeimg').src=garbageItem.stepThreeimg;
 document.querySelector('#para3').textContent=garbageItem.para3;
 document.querySelector('#item13').textContent=garbageItem.item13;
@@ -59,6 +59,8 @@ document.querySelector('#Done').addEventListener('click', function() {
     window.alert("You didn't do step 6")
   }else{
     document.querySelector("#Modal").style.display="block";
+setTimeout(function(){     location.href="index.html";
+}, 5000);
 
   }
 

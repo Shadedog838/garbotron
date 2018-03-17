@@ -33,6 +33,8 @@ para3:"Burning them off: car fluids like automotive oil and other oil based car 
 stepFourimg:"https://images-na.ssl-images-amazon.com/images/I/41NZxNNx6%2BL.jpg",
 para4:"Some car fluids are highly toxic to the environment and require storage in special leak-proof containers to minimize the chances of spillage and contamination before handing them over to the hazardous waste processing facility within your locality. Some of these wastes include gasoline, brake fluids and transmission fluids.",
 para5:"THERE IS NO DIRECTIONS HERE JUST CHECK OFF THE BOX",
+para6:"THERE IS NO DIRECTIONS HERE JUST CHECK OFF THE BOX",
+para7:"THERE IS NO DIRECTIONS HERE JUST CHECK OFF THE BOX",
 
 }
 var motoroil={
@@ -82,6 +84,13 @@ var gasoline={
 item12:"Some hazardous waste disposal centers are free only to citizens from a particular area, with outsiders forced to pay a fee for disposal.",
 item22:"In less populated areas, your local waste disposal may only be open very limited hours. This is another reason to call ahead.",
 item23:"Centers may also have a maximum amount of gas, such as 10 gallons (37.9 L), that they will accept in a single visit or from an individual over a particular time period.",
+stepThreeimg:"https://www.wikihow.com/images/thumb/a/a4/Dispose-of-Gasoline-Step-3.jpg/aid9424335-v4-728px-Dispose-of-Gasoline-Step-3.jpg.webp",
+para3:"Pay for a disposal service. If you have a large amount of gasoline to get rid of or if there aren’t other options in your area, you may need to pay for a private disposal service. Find one of these businesses by entering “private hazardous waste disposal” and your location into a search engine. Ask about their fees when you call. You should also check that they are licensed by local authorities.",
+item13:"These types of services can be costly, however, they are much cheaper than paying a fine for hazardous dumping.",
+stepFourimg:"https://www.wikihow.com/images/thumb/9/9a/Dispose-of-Gasoline-Step-4.jpg/aid9424335-v4-728px-Dispose-of-Gasoline-Step-4.jpg.webp",
+para4:"Attend a community collection event. To encourage citizens to safely dispose of waste, many cities hold regularly scheduled recycling and disposal events. They usually publish a list of the details as well as the accepted materials, such as gas, well in advance. To find out if this is an option for you, reach out to your local government.",
+stepFiveimg:"https://www.wikihow.com/images/thumb/4/4d/Dispose-of-Gasoline-Step-5.jpg/aid9424335-v4-728px-Dispose-of-Gasoline-Step-5.jpg.webp",
+para5:"Ask your local fire department for guidance. Many fire departments are willing to dispose of your gasoline for you or suggest a location that will help you safely get rid of it. Fire departments can also offer suggestions regarding the safe storage and transport of old gasoline.",
 
 }
 var clickables=document.querySelectorAll(".clickable");
