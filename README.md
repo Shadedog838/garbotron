@@ -1,6 +1,6 @@
 # App name
 
-Author: Shandon Mith
+Author: Shandon SMith
 
 ## Problem
 
