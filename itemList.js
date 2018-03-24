@@ -41,6 +41,16 @@ var para6= document.querySelector("#para6").textContent;
 var para7= document.querySelector("#para7").textContent;
 var para5= document.querySelector("#para5").textContent;
 var item22= document.querySelector("#item22").textContent;
+var item1= document.querySelector("#item1").textContent;
+var item2= document.querySelector("#item2").textContent;
+var item12= document.querySelector("#item12").textContent;
+var item13= document.querySelector("#item13").textContent;
+var item15= document.querySelector("#item15").textContent;
+var item25=document.querySelector("#item25").textContent;
+var item16=document.querySelector("#item16").textContent;
+var item26=document.querySelector("#item26").textContent;
+var item17=document.querySelector("#item17").textContent;
+var item27=document.querySelector("#item27").textContent;
 
 if(para6==""){
   document.querySelector("#stepSix").style.display="none";
@@ -55,6 +65,36 @@ if(para5==""){
 }
 if(item22==""){
   document.querySelector("#item22").style.display="none";
+}
+if(item1==""){
+  document.querySelector("#item1").style.display="none";
+}
+if(item2==""){
+  document.querySelector("#item2").style.display="none";
+}
+if(item12==""){
+  document.querySelector("#item12").style.display="none";
+}
+if(item13==""){
+  document.querySelector("#item13").style.display="none";
+}
+if(item15==""){
+  document.querySelector("#item15").style.display="none";
+}
+if(item25==""){
+  document.querySelector("#item25").style.display="none";
+}
+if(item16==""){
+  document.querySelector("#item16").style.display="none";
+}
+if(item26==""){
+  document.querySelector("#item26").style.display="none";
+}
+if(item17==""){
+  document.querySelector("#item17").style.display="none";
+}
+if(item27==""){
+  document.querySelector("#item27").style.display="none";
 }
 var synth = window.speechSynthesis;
   synth.cancel();
