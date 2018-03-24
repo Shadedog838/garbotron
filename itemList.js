@@ -102,10 +102,45 @@ var synth = window.speechSynthesis;
 
 document.querySelector('#play').addEventListener('click', readText);
 
+
 function readText() {
-console.log('text');  var text =garbageItem.title+". "+garbageItem.sum+". "+garbageItem.title1+". "+garbageItem.para1+". "+garbageItem.item1+". "+garbageItem.item2+". "+garbageItem.title2+". "+garbageItem.para2+". "+garbageItem.item12+". "+garbageItem.title3+". "+garbageItem.para3+". "+garbageItem.item13
-+". "+garbageItem.title4+". "+garbageItem.para4+". "+garbageItem.title5+". "+garbageItem.para5+". "+garbageItem.item15+". "+garbageItem.item25+". "+garbageItem.title6+". "+garbageItem.para6+". "+garbageItem.title7+". "+garbageItem.para7+". "+garbageItem.item17;
- if(synth.paused){
+console.log('text');
+var title=document.querySelector("#title").textContent;
+if(title=="How to Dispose of Antifreeze"){
+  var text=garbageItem.title+". "+garbageItem.sum+". "+garbageItem.title1+". "+garbageItem.para1+". "+garbageItem.item1+". "+garbageItem.item2+". "+garbageItem.title2+". "+garbageItem.para2+". "+garbageItem.item12+". "+garbageItem.title3+". "+garbageItem.para3+". "+garbageItem.item13
++". "+garbageItem.title4+". "+garbageItem.para4+". "+garbageItem.title5+". "+garbageItem.para5+". "+garbageItem.item15+". "+garbageItem.item25;
+}
+if(title=="How to Dispose of Fluids"){
+  var text =garbageItem.title+". "+garbageItem.sum+". "+garbageItem.title1+". "+garbageItem.para1+". "+garbageItem.title2+". "+garbageItem.para2+". "+garbageItem.title3+". "+garbageItem.para3+". "+garbageItem.title4+". "+garbageItem.para4;
+
+}
+if(title=="How to Dispose of Motor Oil"){
+  var text =garbageItem.title+". "+garbageItem.sum+". "+garbageItem.title1+". "+garbageItem.para1+". "+garbageItem.title2+". "+garbageItem.para2+". "+garbageItem.title3+". "+garbageItem.para3+". "+garbageItem.title4+". "+garbageItem.para4+". "+garbageItem.title5+". "+garbageItem.para5+". "
+  +garbageItem.title6+". "+garbageItem.para6+". "+garbageItem.title7+". "+garbageItem.para7;
+
+
+
+}
+if(title=="How to Dispose of Oil Filter"){
+  var text =garbageItem.title+". "+garbageItem.sum+". "+garbageItem.title1+". "+garbageItem.para1+". "+garbageItem.title2+". "+garbageItem.para2+". "+garbageItem.title3+". "+garbageItem.para3+". "+garbageItem.title4+". "+garbageItem.para4+". "+garbageItem.title5+". "+garbageItem.para5+". "
+  +garbageItem.title6+". "+garbageItem.para6+". "+garbageItem.title7+". "+garbageItem.para7;
+
+
+
+}
+if(title=="How to Dispose of Gasoline"){
+  var text =garbageItem.title+". "+garbageItem.sum+". "+garbageItem.title1+". "+garbageItem.para1+". "+garbageItem.item1+". "+garbageItem.item2+". "+garbageItem.title2+". "+garbageItem.para2+". "+garbageItem.item12+". "+garbageItem.title3+". "+garbageItem.para3+". "+garbageItem.item13
+  +". "+garbageItem.title4+". "+garbageItem.para4+". "+garbageItem.title5+". "+garbageItem.para5+". "+garbageItem.item15+". "+garbageItem.item25+". "+garbageItem.title6+". "+garbageItem.para6+". "+garbageItem.title7+". "+garbageItem.para7+". "+garbageItem.item17;
+
+
+
+}
+
+
+
+
+
+if(synth.paused){
   synth.resume();
 }
 if (text !== '') {
