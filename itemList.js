@@ -195,6 +195,8 @@ document.querySelector('#Done').addEventListener('click', function() {
 
 
   }else{
+    var audio = new Audio("song.mp3") ;
+audio.play();
     document.querySelector("#Modal").style.display="block";
 setTimeout(function(){     location.href="index.html";
 }, 5000);
@@ -227,6 +229,8 @@ document.querySelector('#Done').addEventListener('click', function() {
       }else if(four.checked!==true){
         window.alert("You didn't do step 4");
       }else{
+        var audio = new Audio("song.mp3") ;
+    audio.play();
     document.querySelector("#Modal").style.display="block";
 setTimeout(function(){     location.href="index.html";
 }, 5000);
@@ -268,6 +272,8 @@ document.querySelector('#Done').addEventListener('click', function() {
 
 
   }else{
+    var audio = new Audio("song.mp3") ;
+audio.play();
     document.querySelector("#Modal").style.display="block";
 setTimeout(function(){     location.href="index.html";
 }, 5000);
@@ -309,6 +315,8 @@ document.querySelector('#Done').addEventListener('click', function() {
 
 
   }else{
+    var audio = new Audio("song.mp3") ;
+audio.play();
     document.querySelector("#Modal").style.display="block";
 setTimeout(function(){     location.href="index.html";
 }, 5000);
@@ -350,6 +358,9 @@ document.querySelector('#Done').addEventListener('click', function() {
 
 
   }else{
+    var audio = new Audio("song.mp3") ;
+audio.play();
+
     document.querySelector("#Modal").style.display="block";
 setTimeout(function(){     location.href="index.html";
 }, 5000);
