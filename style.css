@@ -22,9 +22,16 @@ body{
 width: 200px;
 margin:0 auto;
   display:block;
+}
 
+.everythingElse{
+  display: none;
+}
 
-
+}
+#task{
+  font-family: Arial;
+  font-weight:700;
 }
 
 
@@ -124,6 +131,7 @@ justify-content: center;
   margin:0 auto;
   height:200;
 justify-content: center;
+display: none;
 }
 #HouseholdBatteries{
 
@@ -147,6 +155,7 @@ justify-content: center;
   margin:0 auto;
   height:200;
 justify-content: center;
+display: none;
 }
 
 #Television{
@@ -198,7 +207,7 @@ justify-content: center;
   margin:0 auto;
   height:200;
 justify-content: center;
-
+display:none;
 }
 #fluorescent{
   height:50px;
@@ -218,6 +227,7 @@ justify-content: center;
   margin:0 auto;
   height:200;
 justify-content: center;
+display:none;
 
 }
 #Thermometers{
@@ -246,6 +256,7 @@ justify-content: center;
   margin:0 auto;
   height:200;
 justify-content: center;
+display: none;
 }
 #oilBased{
   height:50px;
@@ -286,6 +297,7 @@ justify-content: center;
   margin:0 auto;
   height:200;
 justify-content: center;
+display:none;
 
 }
 #Pesticides{
@@ -317,6 +329,7 @@ justify-content: center;
   margin:0 auto;
   height:200;
 justify-content: center;
+display:none;
 
 }
 #Needles{
@@ -343,6 +356,7 @@ justify-content: center;
   margin:0 auto;
   height:200;
 justify-content: center;
+display:none;
 
 }
 #Chlorine{
