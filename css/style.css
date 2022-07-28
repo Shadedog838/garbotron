@@ -1,0 +1,338 @@
+body {
+  background-image: url("http://static5.depositphotos.com/1010111/457/v/950/depositphotos_4575046-Recycling-eco-background.jpg");
+}
+h1 {
+  text-align: center;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#logo {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* .everythingElse {
+  display: none;
+} */
+
+#task {
+  font-family: Arial;
+  font-weight: 700;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+.everthing {
+  display: block;
+  border: solid black 1px;
+  margin: 0 auto;
+  width: 60%;
+
+  background-color: #bdbdbd;
+}
+#enter {
+  height: 30px;
+  width: 30%;
+}
+#avatar {
+  display: block;
+  border: solid black 1px;
+  margin: 0 auto;
+}
+#AutomotiveProducts {
+  display: flex;
+  flex-flow: row;
+
+  border: solid black 1px;
+  margin: 0 auto;
+  height: 200;
+  justify-content: center;
+}
+
+.wrapper {
+  margin: 0px 5px;
+}
+#image {
+  font-size: 20px;
+  text-align: center;
+  background-color: #45ac6e;
+}
+#antifreeze {
+  height: 50px;
+  width: 70px;
+  border: solid black 1px;
+}
+#fluids {
+  height: 50px;
+  width: 70px;
+  border: solid black 1px;
+}
+#motorOil {
+  height: 50px;
+  width: 70px;
+  border: solid black 1px;
+}
+#oilFilters {
+  height: 50px;
+  width: 70px;
+  border: solid black 1px;
+}
+#gasoline {
+  height: 50px;
+  width: 70px;
+  border: solid black 1px;
+}
+#polish {
+  height: 50px;
+  width: 70px;
+  border: solid black 1px;
+}
+#wax {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Batteries {
+  display: flex;
+  flex-flow: row;
+
+  border: solid black 1px;
+  margin: 0 auto;
+  height: 200;
+  justify-content: center;
+  /* display: none; */
+}
+#HouseholdBatteries {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#vehicleBatteries {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Electronics {
+  display: flex;
+  flex-flow: row;
+
+  border: solid black 1px;
+  margin: 0 auto;
+  height: 200;
+  justify-content: center;
+  /* display: none; */
+}
+
+#Television {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Computers {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#laptops {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Cellphones {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Printers {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#FaxMachine {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#MP3players {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#cassetteplayers {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#homeAppliances {
+  display: flex;
+  flex-flow: row;
+
+  border: solid black 1px;
+  margin: 0 auto;
+  height: 200;
+  justify-content: center;
+  /* display: none; */
+}
+#fluorescent {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#compact {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#mercuryMaterials {
+  display: flex;
+  flex-flow: row;
+
+  border: solid black 1px;
+  margin: 0 auto;
+  height: 200;
+  justify-content: center;
+  /* display: none; */
+}
+#Thermometers {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Thermostats {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#seachIcon {
+  height: 20px;
+  width: 60px;
+  border: solid black 1px;
+  background-color: white;
+}
+#paintTypes {
+  display: flex;
+  flex-flow: row;
+
+  border: solid black 1px;
+  margin: 0 auto;
+  height: 200;
+  justify-content: center;
+  /* display: none; */
+}
+#oilBased {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#latexPaint {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#sprayPaint {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#caulk {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#woodPreservative {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#woodStain {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#gardenChemicals {
+  display: flex;
+  flex-flow: row;
+
+  border: solid black 1px;
+  margin: 0 auto;
+  height: 200;
+  justify-content: center;
+  /* display: none; */
+}
+#Pesticides {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Herbicides {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Fertilizer {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Insecticides {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Sharps {
+  display: flex;
+  flex-flow: row;
+
+  border: solid black 1px;
+  margin: 0 auto;
+  height: 200;
+  justify-content: center;
+  /* display: none; */
+}
+#Needles {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Lancets {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Containers {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#swimmingPool {
+  display: flex;
+  flex-flow: row;
+
+  border: solid black 1px;
+  margin: 0 auto;
+  height: 200;
+  justify-content: center;
+  /* display: none; */
+}
+#Chlorine {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
+#Bromine {
+  height: 50px;
+  width: 60px;
+  border: solid black 1px;
+}
